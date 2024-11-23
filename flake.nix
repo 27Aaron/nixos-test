@@ -21,6 +21,17 @@
     }:
     {
       nixosConfigurations = {
+        alibaba-hk = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/alibaba-hk
+            disko.nixosModules.disko
+            impermanence.nixosModules.impermanence
+          ];
+        };
+      };
+
+      nixosConfigurations = {
         racknerd-99 = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
