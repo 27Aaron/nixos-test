@@ -24,6 +24,6 @@
     enable = true;
     algorithm = "zstd";
     priority = 5;
-    memoryMax = 2 * 1024 * 1024 * 1024;
+    memoryPercent = 400;
   };
 }
