@@ -24,6 +24,6 @@
     enable = true;
     algorithm = "zstd";
     priority = 5;
-    memoryPercent = 400;
+    memoryPercent = 212;
   };
 }
