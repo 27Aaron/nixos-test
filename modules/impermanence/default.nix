@@ -8,6 +8,8 @@
 
         "/var/log"
         "/var/lib"
+
+        ".local/share/docker"
       ];
       files = [
         # "/etc/machine-id"
