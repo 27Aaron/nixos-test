@@ -19,9 +19,6 @@
       impermanence,
       ...
     }:
-    let
-      user = "aaron";
-    in
     {
       nixosConfigurations = {
         racknerd-99 = nixpkgs.lib.nixosSystem {

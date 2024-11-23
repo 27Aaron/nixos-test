@@ -1,4 +1,8 @@
-{ lib, config, ... }:
+{
+  lib,
+  config,
+  ...
+}:
 {
   boot.kernel.sysctl = {
     # Bufferbloat mitigations + slight improvement in throughput & latency

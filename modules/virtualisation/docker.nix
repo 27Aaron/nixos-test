@@ -1,4 +1,7 @@
-{ pkgs, user, ... }:
+{
+  pkgs,
+  ...
+}:
 {
   virtualisation = {
     docker = {
