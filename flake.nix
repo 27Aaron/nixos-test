@@ -24,7 +24,7 @@
     in
     {
       nixosConfigurations = {
-        clawcloud = nixpkgs.lib.nixosSystem {
+        racknerd-99 = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
             ./hosts/racknerd-99
