@@ -8,8 +8,6 @@
 
         "/var/log"
         "/var/lib"
-
-        ".local/share/docker"
       ];
       files = [
         # "/etc/machine-id"
@@ -23,6 +21,8 @@
           "Pictures"
           "Documents"
           "Videos"
+
+          ".local/share/docker"
 
           {
             directory = ".gnupg";
