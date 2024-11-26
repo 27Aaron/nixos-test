@@ -41,5 +41,16 @@
           ];
         };
       };
+
+      nixosConfigurations = {
+        hostslick = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/hostslick
+            disko.nixosModules.disko
+            impermanence.nixosModules.impermanence
+          ];
+        };
+      };
     };
 }
