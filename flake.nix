@@ -54,10 +54,10 @@
       };
 
       nixosConfigurations = {
-        xtom-frankfurt = nixpkgs.lib.nixosSystem {
+        xtom = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
-            ./hosts/xtom-frankfurt
+            ./hosts/xtom
             disko.nixosModules.disko
             impermanence.nixosModules.impermanence
           ];
