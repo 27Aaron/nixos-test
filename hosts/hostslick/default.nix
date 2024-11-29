@@ -18,7 +18,7 @@
   networking.useDHCP = false;
   networking.hostName = "hostslick";
 
-  system.stateVersion = "24.11";
+  system.stateVersion = "25.05";
 
   zramSwap = {
     enable = true;

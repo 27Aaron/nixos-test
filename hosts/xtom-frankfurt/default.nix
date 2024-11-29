@@ -16,7 +16,7 @@
   systemd.network.enable = true;
   services.resolved.enable = false;
   networking.useDHCP = false;
-  networking.hostName = "racknerd-99";
+  networking.hostName = "xtom-frankfurt";
 
   system.stateVersion = "25.05";
 
