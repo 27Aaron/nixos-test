@@ -7,6 +7,7 @@
 
 {
   imports = [
+    ./caddy.nix
     ./network.nix
     ../../modules/base
     ../../modules/hardware/vda
