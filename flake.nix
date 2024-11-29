@@ -52,5 +52,17 @@
           ];
         };
       };
+
+      nixosConfigurations = {
+        xtom-frankfurt = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/xtom-frankfurt
+            disko.nixosModules.disko
+            impermanence.nixosModules.impermanence
+          ];
+        };
+      };
+
     };
 }
