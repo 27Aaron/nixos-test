@@ -9,6 +9,7 @@
     just
     wget
     git
+    gettext
     lazygit
     pv
 
