@@ -7,7 +7,7 @@
   systemd.network.networks.eth0 = {
     address = [
       "93.123.118.106/24"
-      "2a0f:ca80:1337:9262::1/64"
+      "2a0f:ca80:1337:1c42::1/64"
     ];
     gateway = [
       "93.123.118.1"
