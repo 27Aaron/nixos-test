@@ -64,5 +64,15 @@
         };
       };
 
+      nixosConfigurations = {
+        alibaba-bj = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./hosts/alibaba-bj
+            disko.nixosModules.disko
+            impermanence.nixosModules.impermanence
+          ];
+        };
+      };
     };
 }
